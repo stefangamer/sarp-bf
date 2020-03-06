@@ -1,6 +1,9 @@
 {
   "name": "sarp-bf",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.13.0"
+  },
   "description": "I like tiddies and anime",
   "main": "index.js",
   "dependencies": {},
