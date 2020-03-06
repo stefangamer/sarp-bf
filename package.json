@@ -1,19 +1,18 @@
 {
   "name": "Bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "I like big tiddies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Me",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2",
-	"discord.js": "^11.6.1",
+    "discord.js": "^11.6.1",
     "firebase": "^5.9.3",
     "firebase-admin": "^7.2.0",
     "fs": "0.0.1-security",
     "opusscript": "0.0.6"
+  }
 }
