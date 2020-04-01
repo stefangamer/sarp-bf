@@ -75,7 +75,9 @@ bot.on('guildCreate', async gData => {
         'prefix': '!'
     })
 });
-
+bot.on('messageReactionAdd', (reaction, user) => {
+ message.channel.send(reaction.user);
+});
 bot.on("message", async message => {
     // This event will run on every single message received, from any channel or DM.
 
